@@ -1,0 +1,14 @@
+/Users/nelsonrecarte/ejemploSolid/bin/Debug/net8.0/ejemploSolid
+/Users/nelsonrecarte/ejemploSolid/bin/Debug/net8.0/ejemploSolid.deps.json
+/Users/nelsonrecarte/ejemploSolid/bin/Debug/net8.0/ejemploSolid.runtimeconfig.json
+/Users/nelsonrecarte/ejemploSolid/bin/Debug/net8.0/ejemploSolid.dll
+/Users/nelsonrecarte/ejemploSolid/bin/Debug/net8.0/ejemploSolid.pdb
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ejemploSolid.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ejemploSolid.AssemblyInfoInputs.cache
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ejemploSolid.AssemblyInfo.cs
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ejemploSolid.csproj.CoreCompileInputs.cache
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ejemploSolid.dll
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/refint/ejemploSolid.dll
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ejemploSolid.pdb
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ejemploSolid.genruntimeconfig.cache
+/Users/nelsonrecarte/ejemploSolid/obj/Debug/net8.0/ref/ejemploSolid.dll

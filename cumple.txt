@@ -1,0 +1,77 @@
+using System;
+
+namespace InterfaceSegregationExample
+{
+    public interface IConducible
+    {
+        void Conducir();
+    }
+
+    public interface IVolable
+    {
+        void Volar();
+    }
+
+    public interface INavegable
+    {
+        void Navegar();
+    }
+
+    public class Auto : IConducible
+    {
+        public void Conducir()
+        {
+            Console.WriteLine("El auto está conduciendo.");
+        }
+    }
+
+    public class Avion : IVolable
+    {
+        public void Volar()
+        {
+            Console.WriteLine("El avión está volando.");
+        }
+    }
+
+    public class Barco : INavegable
+    {
+        public void Navegar()
+        {
+            Console.WriteLine("El barco está navegando.");
+        }
+    }
+
+    public class Hidroavion : IVolable, INavegable
+    {
+        public void Volar()
+        {
+            Console.WriteLine("El hidroavión está volando.");
+        }
+
+        public void Navegar()
+        {
+            Console.WriteLine("El hidroavión está navegando.");
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            IConducible auto = new Auto();
+            IVolable avion = new Avion();
+            INavegable barco = new Barco();
+            IVolable hidroavionVolador = new Hidroavion();
+            INavegable hidroavionNavegador = new Hidroavion();
+
+            auto.Conducir();
+            avion.Volar();
+            barco.Navegar();
+            hidroavionVolador.Volar();
+            hidroavionNavegador.Navegar();
+
+            Console.WriteLine("Presiona cualquier tecla para salir...");
+            Console.ReadKey();
+        }
+    }
+}
